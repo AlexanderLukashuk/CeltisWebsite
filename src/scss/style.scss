@@ -1,1 +1,30 @@
 @import"normalize";
+
+body
+{
+    //font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container
+{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.main
+{
+    height: 775px;
+    padding-top: 223px;
+    box-sizing: border-box;
+}
+
+.page
+{
+    &-main
+    {
+        background-image: url(../img/celtis-background.jpg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+}
